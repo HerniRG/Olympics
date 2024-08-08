@@ -8,17 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		668F7A9B2C65161000DA84E6 /* OlympicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668F7A9A2C65161000DA84E6 /* OlympicsApp.swift */; };
-		668F7A9D2C65161000DA84E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668F7A9C2C65161000DA84E6 /* ContentView.swift */; };
 		668F7A9F2C65161100DA84E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668F7A9E2C65161100DA84E6 /* Assets.xcassets */; };
 		668F7AA22C65161100DA84E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668F7AA12C65161100DA84E6 /* Preview Assets.xcassets */; };
+		668F7AAD2C65171F00DA84E6 /* MedalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668F7AAC2C65171F00DA84E6 /* MedalListView.swift */; };
+		668F7AAF2C65173C00DA84E6 /* MedalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668F7AAE2C65173C00DA84E6 /* MedalDetailView.swift */; };
+		668F7AB12C65175500DA84E6 /* MedalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668F7AB02C65175500DA84E6 /* MedalViewModel.swift */; };
+		668F7AB32C65176800DA84E6 /* CountryMedal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668F7AB22C65176800DA84E6 /* CountryMedal.swift */; };
+		668F7AB52C6517F900DA84E6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668F7AB42C6517F900DA84E6 /* NetworkManager.swift */; };
+		668F7AB82C651BCC00DA84E6 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 668F7AB72C651BCC00DA84E6 /* SDWebImageSwiftUI */; };
+		668F7AC22C65223A00DA84E6 /* Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668F7AC12C65223A00DA84E6 /* Sport.swift */; };
+		668F7AC42C6522D300DA84E6 /* SportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668F7AC32C6522D300DA84E6 /* SportViewModel.swift */; };
+		668F7AC82C65247B00DA84E6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668F7AC72C65247A00DA84E6 /* MainView.swift */; };
+		668F7ACA2C65249E00DA84E6 /* SportListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668F7AC92C65249E00DA84E6 /* SportListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		668F7A972C65161000DA84E6 /* Olympics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Olympics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		668F7A9A2C65161000DA84E6 /* OlympicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlympicsApp.swift; sourceTree = "<group>"; };
-		668F7A9C2C65161000DA84E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		668F7A9E2C65161100DA84E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		668F7AA12C65161100DA84E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		668F7AAC2C65171F00DA84E6 /* MedalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedalListView.swift; sourceTree = "<group>"; };
+		668F7AAE2C65173C00DA84E6 /* MedalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedalDetailView.swift; sourceTree = "<group>"; };
+		668F7AB02C65175500DA84E6 /* MedalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedalViewModel.swift; sourceTree = "<group>"; };
+		668F7AB22C65176800DA84E6 /* CountryMedal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryMedal.swift; sourceTree = "<group>"; };
+		668F7AB42C6517F900DA84E6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		668F7AC12C65223A00DA84E6 /* Sport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport.swift; sourceTree = "<group>"; };
+		668F7AC32C6522D300DA84E6 /* SportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportViewModel.swift; sourceTree = "<group>"; };
+		668F7AC72C65247A00DA84E6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		668F7AC92C65249E00DA84E6 /* SportListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668F7AB82C651BCC00DA84E6 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +70,10 @@
 			isa = PBXGroup;
 			children = (
 				668F7A9A2C65161000DA84E6 /* OlympicsApp.swift */,
-				668F7A9C2C65161000DA84E6 /* ContentView.swift */,
+				668F7AA82C65168500DA84E6 /* Models */,
+				668F7AA92C65168E00DA84E6 /* ViewModels */,
+				668F7AAA2C65169E00DA84E6 /* Views */,
+				668F7AAB2C6516AB00DA84E6 /* Utilities */,
 				668F7A9E2C65161100DA84E6 /* Assets.xcassets */,
 				668F7AA02C65161100DA84E6 /* Preview Content */,
 			);
@@ -65,6 +86,43 @@
 				668F7AA12C65161100DA84E6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		668F7AA82C65168500DA84E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				668F7AB22C65176800DA84E6 /* CountryMedal.swift */,
+				668F7AC12C65223A00DA84E6 /* Sport.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		668F7AA92C65168E00DA84E6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				668F7AB02C65175500DA84E6 /* MedalViewModel.swift */,
+				668F7AC32C6522D300DA84E6 /* SportViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		668F7AAA2C65169E00DA84E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				668F7AAC2C65171F00DA84E6 /* MedalListView.swift */,
+				668F7AAE2C65173C00DA84E6 /* MedalDetailView.swift */,
+				668F7AC72C65247A00DA84E6 /* MainView.swift */,
+				668F7AC92C65249E00DA84E6 /* SportListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		668F7AAB2C6516AB00DA84E6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				668F7AB42C6517F900DA84E6 /* NetworkManager.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +141,9 @@
 			dependencies = (
 			);
 			name = Olympics;
+			packageProductDependencies = (
+				668F7AB72C651BCC00DA84E6 /* SDWebImageSwiftUI */,
+			);
 			productName = Olympics;
 			productReference = 668F7A972C65161000DA84E6 /* Olympics.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +172,9 @@
 				Base,
 			);
 			mainGroup = 668F7A8E2C65161000DA84E6;
+			packageReferences = (
+				668F7AB62C651BCC00DA84E6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 668F7A982C65161000DA84E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +201,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				668F7A9D2C65161000DA84E6 /* ContentView.swift in Sources */,
+				668F7AC82C65247B00DA84E6 /* MainView.swift in Sources */,
+				668F7AB52C6517F900DA84E6 /* NetworkManager.swift in Sources */,
+				668F7AC42C6522D300DA84E6 /* SportViewModel.swift in Sources */,
+				668F7AC22C65223A00DA84E6 /* Sport.swift in Sources */,
+				668F7AAF2C65173C00DA84E6 /* MedalDetailView.swift in Sources */,
+				668F7AAD2C65171F00DA84E6 /* MedalListView.swift in Sources */,
+				668F7ACA2C65249E00DA84E6 /* SportListView.swift in Sources */,
+				668F7AB12C65175500DA84E6 /* MedalViewModel.swift in Sources */,
 				668F7A9B2C65161000DA84E6 /* OlympicsApp.swift in Sources */,
+				668F7AB32C65176800DA84E6 /* CountryMedal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +416,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		668F7AB62C651BCC00DA84E6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		668F7AB72C651BCC00DA84E6 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 668F7AB62C651BCC00DA84E6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 668F7A8F2C65161000DA84E6 /* Project object */;
 }

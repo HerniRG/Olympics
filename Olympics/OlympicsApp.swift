@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct OlympicsApp: App {
+struct OlympicsMedalAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
