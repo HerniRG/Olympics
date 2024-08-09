@@ -30,10 +30,10 @@ struct MedalListView: View {
                                 .font(.headline)
                                 .foregroundColor(.primary)
                             HStack {
-                                MedalView(type: "🥇", count: country.gold_medals)
-                                MedalView(type: "🥈", count: country.silver_medals)
-                                MedalView(type: "🥉", count: country.bronze_medals)
-                                MedalView(type: "🏅", count: country.total_medals)
+                                MedalView(type: "🥇", count: country.gold_medals, color: .yellow)
+                                MedalView(type: "🥈", count: country.silver_medals, color: .gray)
+                                MedalView(type: "🥉", count: country.bronze_medals, color: .orange)
+                                MedalView(type: "|", count: country.total_medals, color: .blue, isTotal: true)
                             }
                         }
                     }
@@ -48,19 +48,27 @@ struct MedalListView: View {
 }
 
 
+
+import SwiftUI
+
 struct MedalView: View {
     var type: String
     var count: Int
+    var color: Color
+    var isTotal: Bool = false
 
     var body: some View {
         HStack {
             Text(type)
             Text("\(count)")
                 .frame(width: 30, alignment: .leading)
-                .foregroundColor(.primary)
+                .foregroundColor(color)
+                .font(isTotal ? .headline : .body)
+                .bold(isTotal)
         }
     }
 }
+
 
 struct MedalListView_Previews: PreviewProvider {
     static var previews: some View {

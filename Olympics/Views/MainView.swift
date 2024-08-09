@@ -16,6 +16,12 @@ struct MainView: View {
                     Text("Medals")
                 }
             
+            EventListView()
+                .tabItem {
+                    Image(systemName: "calendar")
+                    Text("Events")
+                }
+            
             SportListView()
                 .tabItem {
                     Image(systemName: "sportscourt.fill")

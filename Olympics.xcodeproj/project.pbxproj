@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		663021E32C6675F200326B86 /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663021E22C6675F200326B86 /* EventListView.swift */; };
+		663021E52C667C8000326B86 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663021E42C667C8000326B86 /* Event.swift */; };
+		663021E72C667CB000326B86 /* EventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663021E62C667CB000326B86 /* EventViewModel.swift */; };
 		668F7A9B2C65161000DA84E6 /* OlympicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668F7A9A2C65161000DA84E6 /* OlympicsApp.swift */; };
 		668F7A9F2C65161100DA84E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668F7A9E2C65161100DA84E6 /* Assets.xcassets */; };
 		668F7AA22C65161100DA84E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668F7AA12C65161100DA84E6 /* Preview Assets.xcassets */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		663021E22C6675F200326B86 /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
+		663021E42C667C8000326B86 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		663021E62C667CB000326B86 /* EventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewModel.swift; sourceTree = "<group>"; };
 		668F7A972C65161000DA84E6 /* Olympics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Olympics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		668F7A9A2C65161000DA84E6 /* OlympicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlympicsApp.swift; sourceTree = "<group>"; };
 		668F7A9E2C65161100DA84E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -93,6 +99,7 @@
 			children = (
 				668F7AB22C65176800DA84E6 /* CountryMedal.swift */,
 				668F7AC12C65223A00DA84E6 /* Sport.swift */,
+				663021E42C667C8000326B86 /* Event.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -102,6 +109,7 @@
 			children = (
 				668F7AB02C65175500DA84E6 /* MedalViewModel.swift */,
 				668F7AC32C6522D300DA84E6 /* SportViewModel.swift */,
+				663021E62C667CB000326B86 /* EventViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -113,6 +121,7 @@
 				668F7AAE2C65173C00DA84E6 /* MedalDetailView.swift */,
 				668F7AC72C65247A00DA84E6 /* MainView.swift */,
 				668F7AC92C65249E00DA84E6 /* SportListView.swift */,
+				663021E22C6675F200326B86 /* EventListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,14 +210,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				663021E32C6675F200326B86 /* EventListView.swift in Sources */,
 				668F7AC82C65247B00DA84E6 /* MainView.swift in Sources */,
 				668F7AB52C6517F900DA84E6 /* NetworkManager.swift in Sources */,
 				668F7AC42C6522D300DA84E6 /* SportViewModel.swift in Sources */,
+				663021E52C667C8000326B86 /* Event.swift in Sources */,
 				668F7AC22C65223A00DA84E6 /* Sport.swift in Sources */,
 				668F7AAF2C65173C00DA84E6 /* MedalDetailView.swift in Sources */,
 				668F7AAD2C65171F00DA84E6 /* MedalListView.swift in Sources */,
 				668F7ACA2C65249E00DA84E6 /* SportListView.swift in Sources */,
 				668F7AB12C65175500DA84E6 /* MedalViewModel.swift in Sources */,
+				663021E72C667CB000326B86 /* EventViewModel.swift in Sources */,
 				668F7A9B2C65161000DA84E6 /* OlympicsApp.swift in Sources */,
 				668F7AB32C65176800DA84E6 /* CountryMedal.swift in Sources */,
 			);
